@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Image Selector
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="no-image" *ngIf="image==''">
+    No image selected
+  </div>
+  <img [src]="image" alt="No image" *ngIf="image!=''">
+  <button (click)="selectSource()">Select image</button>
+</ion-content>

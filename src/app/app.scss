@@ -1,0 +1,32 @@
+// App Styles
+// ----------------------------------------------------------------------------
+// Put style rules here that you want to apply to the entire application. These 
+// styles are for the entire app and not just one component. Additionally, this 
+// file can hold Sass mixins, functions, and placeholder classes to be imported 
+// and used throughout the application.
+
+app-home {
+  ion-content {
+    text-align: center;
+
+    img {
+      width: 100%;
+      display: block;
+    }
+
+    .no-image {
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding: 5rem;
+    }
+
+    button {
+      margin-top: 1rem;
+      width: 70%;
+      height: 2rem;
+      background-color: #3171e0;
+      color: white;
+    }
+  }
+}
